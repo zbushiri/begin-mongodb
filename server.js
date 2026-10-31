@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://zbushiri_db_user:<zakizaki>@cluster0.phvsral.mongodb.net/"
+    "mongodb+srv://zbushiri_db_user:zakizaki@cluster0.phvsral.mongodb.net/"
   )
   .then(() => console.log("Connected to mongodb"))
   .catch((error) => console.log("Couldn't connect to mongodb", error));
